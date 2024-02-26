@@ -1,0 +1,229 @@
+/* 
+    Style css
+    Pratica W3D4
+    Author: Gianluca Chiaravalloti
+    data: 22.02.2024
+    rev.: 1.0.0
+*/
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    width: 100vw;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #10101010;
+    box-shadow: 0 5px 10px rgb(220, 220, 220);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo a {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #201c1c85;
+}
+
+.logo span {
+    background-color: #9d6e4d67;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.menu {
+    align-items: right;
+}
+
+.menu a {
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000
+}
+
+.menu a:hover {
+    color: #40404040;
+}
+/* -------------------- end navbar */
+
+
+/* Main */
+main {
+    margin-top: 20px;
+    top: 100px;
+}
+
+.container {
+    top: 100px;
+}
+
+/* Section banner */
+.banner {
+    height: 600px;
+    background-image: url(https://picsum.photos/id/3/1024/600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3.5em;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: center;
+    color: #FFF;
+}
+
+h3 {
+    text-align: center;
+    color: #FFF;
+}
+/* -------------------- end section banner */
+
+/* table smartphones */
+h2 {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(240, 237, 233);
+}
+
+.table-smartphones {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    height: auto;
+    margin: 20px 20px 0 20px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #10101010;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.acceso a:visited, a:link {
+    font-weight: bold;
+}
+
+.card a:visited, a:link {
+    color: #000;
+}
+
+#price_1, 
+#price_2, 
+#price_3, 
+#price_4,
+#price_5 {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card img {
+    padding: 10px;
+}
+
+#btn_1,
+#btn_2,
+#btn_3,
+#btn_4,
+#btn_5,
+#btn_toggle_1,
+#btn_toggle_2,
+#btn_toggle_3,
+#btn_toggle_4,
+#btn_toggle_5 {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #10101010;
+    box-shadow: 5px 5px 20px rgb(220, 220, 220);
+}
+
+#btn_1:hover,
+#btn_2:hover,
+#btn_3:hover,
+#btn_4:hover,
+#btn_5:hover,
+#btn_toggle_1:hover,
+#btn_toggle_2:hover,
+#btn_toggle_3:hover,
+#btn_toggle_4:hover,
+#btn_toggle_5:hover {
+    background-color: #30303030;
+    color: #fff;
+    cursor: pointer;
+}
+/* -------------------- end table smartphones */
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    border-top: 1px solid #10101010;
+    box-shadow: 5px 0 10px rgb(220, 220, 220);
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.info, .commento {
+    margin-top: 50px;
+}
+
+.title_1 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.commento p {
+    margin-bottom: 20px;
+}
+
+textarea {
+    border: 1px solid #10101010;
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea:hover {
+    border: 1px solid #20202020;
+}
+
+.btn-send {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 5px 5px 20px rgb(220, 220, 220);
+}
+
+.btn-send:hover {
+    background-color: #30303030;
+    color: #fff;
+    cursor: pointer;
+}
+/* -------------------- end footer */

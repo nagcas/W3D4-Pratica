@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style/style.css">
+    <title>G&J Store Smartphones</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">
+                    <span>G&J</span> - online
+                </a>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Articoli</a>
+                <a href="#">Blog</a>
+                <a href="#">Login</a>
+                <a href="#">Registrati</a>
+                <a href="#">Chi siamo</a>
+            </div>
+        </nav>  
+    </header>
+
+    <!-- Content Main -->
+    <main>
+        <div class="container">
+            <!-- Banner titolo -->
+            <section class="banner">
+                <h1>TITOLO</h1>
+                <h3>negozio online</h3>
+            </section>
+
+            <!-- Tabelle elenco prodotti smartphones -->
+            <h2>Offerte del momento</h2>
+            <table class="table-smartphones">
+                <tr>
+                    <td>
+                        <div class="card">
+                            <a id="addClass_1" href="https://www.amazon.it/Motorola-fotocamera-Display-batteria-espandibile/dp/B0CC678WS9/ref=sr_1_6?crid=3VHWQXL47HA9O&dib=eyJ2IjoiMSJ9.D3JccDoB--J1kq9aWgScLEkLrtYM8aLjTG3i2VkPRJsx4REujTwkSNyAT82sTA0Hkys2IT-UhqUzF6W1MltBf-TkxQO2v5S5gNZIJ7m8zEutcX_VFm1AEKyqbSNDlfaR-fiIg4NzuFwD8NBtEJC5c1xKitePVaXIJomva5uHs0Qebkmwj6LCGpW30QSyZqdoL-WEICWxY42kfmP8q6BGFdGsC0OGLi8aqx-cQBMArq_w35-9F5B08Py3iu-Z7-YDZdHXAHwmRSm3DJ1IaGS-qD727WXtX8T-FaTsA07F310.UDa9TLogapklVDYMYB8KPiYemgwE1Xk7FCDNbyyjNJI&dib_tag=se&keywords=smartphone&qid=1708935542&sprefix=smart%2Caps%2C108&sr=8-6">Motorola moto g14</a>
+                            <img id="toggleImg_1" src="img/1_81ZhNrEQQFL._AC_UL320_.jpg" alt="Motorola moto g14">
+                            <p id="price_1">€ 89,95</p>
+                            <p>Motorola moto g14 (4/128 GB espandibile, Doppia fotocamera 50MP, Display 6.5" FHD+, Unisoc T616, batteria 5000 mAh, Dual SIM, Android 13, Cover Inclusa)</p>
+                            <button id="btn_1" onclick="cambiaColorePrice()">Cambio Colore Prezzo</button>
+                            <button id="btn_toggle_1" onclick="toggleImg_1()">Nascondi Img</button>
+                            <button id="btn_toggle_class" onclick="toggleClass_1()">Aggiungi Classe</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <a href="https://www.amazon.it/Xiaomi-Redmi-Note-11S-professionale/dp/B09QH71RZR/ref=sr_1_7?crid=3VHWQXL47HA9O&dib=eyJ2IjoiMSJ9.D3JccDoB--J1kq9aWgScLEkLrtYM8aLjTG3i2VkPRJsx4REujTwkSNyAT82sTA0Hkys2IT-UhqUzF6W1MltBf-TkxQO2v5S5gNZIJ7m8zEutcX_VFm1AEKyqbSNDlfaR-fiIg4NzuFwD8NBtEJC5c1xKitePVaXIJomva5uHs0Qebkmwj6LCGpW30QSyZqdoL-WEICWxY42kfmP8q6BGFdGsC0OGLi8aqx-cQBMArq_w35-9F5B08Py3iu-Z7-YDZdHXAHwmRSm3DJ1IaGS-qD727WXtX8T-FaTsA07F310.UDa9TLogapklVDYMYB8KPiYemgwE1Xk7FCDNbyyjNJI&dib_tag=se&keywords=smartphone&qid=1708935542&sprefix=smart%2Caps%2C108&sr=8-7">Xiaomi Redmi Note 11S</a>
+                            <img id="toggleImg_2" src="img/2_51IhgZadh4L._AC_UL320_.jpg" alt="Xiaomi Redmi Note 11S">
+                            <p id="price_2">€ 136,90</p>
+                            <p>Xiaomi Redmi Note 11S Smartphone, 6GB RAM 128GB ROM, display AMOLED da 6,43'' pollici, processore MediaTek Helio G96, fotocamera quadrupla AI da 108 MP (Blu)</p>
+                            <button id="btn_2" onclick="cambiaColorePrice()">Cambio Colore Prezzo</button>
+                            <button id="btn_toggle_2" onclick="toggleImg_2()">Nascondi Img</button>                          
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <a href="https://www.amazon.it/Smartphone-Infinity-V-espandibile%C2%B2-Batteria-Versione/dp/B0B8ZBWXT6/ref=sr_1_14?crid=3VHWQXL47HA9O&dib=eyJ2IjoiMSJ9.D3JccDoB--J1kq9aWgScLEkLrtYM8aLjTG3i2VkPRJsx4REujTwkSNyAT82sTA0Hkys2IT-UhqUzF6W1MltBf-TkxQO2v5S5gNZIJ7m8zEutcX_VFm1AEKyqbSNDlfaR-fiIg4NzuFwD8NBtEJC5c1xKitePVaXIJomva5uHs0Qebkmwj6LCGpW30QSyZqdoL-WEICWxY42kfmP8q6BGFdGsC0OGLi8aqx-cQBMArq_w35-9F5B08Py3iu-Z7-YDZdHXAHwmRSm3DJ1IaGS-qD727WXtX8T-FaTsA07F310.UDa9TLogapklVDYMYB8KPiYemgwE1Xk7FCDNbyyjNJI&dib_tag=se&keywords=smartphone&qid=1708935542&sprefix=smart%2Caps%2C108&sr=8-14">Samsung Galaxy A23</a>
+                            <img id="toggleImg_3" src="img/3_8174nkaT-HL._AC_UL320_.jpg" alt="Samsung Galaxy A23">
+                            <p id="price_3">€ 194,59</p>
+                            <p>Samsung Galaxy A23 5G Smartphone Android 12, Display Infinity-V 6.6'', 4GB RAM e 128GB di memoria interna espandibile, Batteria 5000 mAh, Nero</p>
+                            <button id="btn_3" onclick="cambiaColorePrice()">Cambio Colore Prezzo</button>
+                            <button id="btn_toggle_3" onclick="toggleImg_3()">Nascondi Img</button>    
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <a href="https://www.amazon.it/OPPO-Smartphone-fotocamera-Supporto-Versione/dp/B0CHYPP5RQ/ref=sr_1_22?crid=3VHWQXL47HA9O&dib=eyJ2IjoiMSJ9.D3JccDoB--J1kq9aWgScLEkLrtYM8aLjTG3i2VkPRJsx4REujTwkSNyAT82sTA0Hkys2IT-UhqUzF6W1MltBf-TkxQO2v5S5gNZIJ7m8zEutcX_VFm1AEKyqbSNDlfaR-fiIg4NzuFwD8NBtEJC5c1xKitePVaXIJomva5uHs0Qebkmwj6LCGpW30QSyZqdoL-WEICWxY42kfmP8q6BGFdGsC0OGLi8aqx-cQBMArq_w35-9F5B08Py3iu-Z7-YDZdHXAHwmRSm3DJ1IaGS-qD727WXtX8T-FaTsA07F310.UDa9TLogapklVDYMYB8KPiYemgwE1Xk7FCDNbyyjNJI&dib_tag=se&keywords=smartphone&qid=1708935542&sprefix=smart%2Caps%2C108&sr=8-22">OPPO A38 4G</a>
+                            <img id="toggleImg_4" src="img/4_81wiBhxZhWL._AC_UL320_.jpg" alt="OPPO A38 4G Smartphone">
+                            <p id="price_4">€ 139,99</p>
+                            <p>OPPO A38 4G Smartphone, AI Doppia fotocamera 50+2MP, Selfie 5MP, Display 6.56'' 90HZ LCD HD+, 5000mAh, RAM 4 (Esp 1GB/2GB/4GB)+ROM 128GB</p>
+                            <button id="btn_4" onclick="cambiaColorePrice()">Cambio Colore Prezzo</button>
+                            <button id="btn_toggle_4" onclick="toggleImg_4()">Nascondi Img</button>                     
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <a href="https://www.amazon.it/Samsung-Smartphone-Infinity-U-Espandibile-Batteria/dp/B0CN12J4Y2/ref=sr_1_44?crid=3VHWQXL47HA9O&dib=eyJ2IjoiMSJ9.D3JccDoB--J1kq9aWgScLEkLrtYM8aLjTG3i2VkPRJsx4REujTwkSNyAT82sTA0Hkys2IT-UhqUzF6W1MltBf-TkxQO2v5S5gNZIJ7m8zEutcX_VFm1AEKyqbSNDlfaR-fiIg4NzuFwD8NBtEJC5c1xKitePVaXIJomva5uHs0Qebkmwj6LCGpW30QSyZqdoL-WEICWxY42kfmP8q6BGFdGsC0OGLi8aqx-cQBMArq_w35-9F5B08Py3iu-Z7-YDZdHXAHwmRSm3DJ1IaGS-qD727WXtX8T-FaTsA07F310.UDa9TLogapklVDYMYB8KPiYemgwE1Xk7FCDNbyyjNJI&dib_tag=se&keywords=smartphone&qid=1708935542&sprefix=smart%2Caps%2C108&sr=8-44">Samsung Galaxy A05s</a>
+                            <img id="toggleImg_5" src="img/5_71WZcEzGbHL._AC_UL320_.jpg" alt="Samsung Galaxy A05s Smartphone">
+                            <p id="price_5">€ 147,89</p>
+                            <p>Samsung Galaxy A05s Smartphone, Display Infinity-U 6.7'', 4GB RAM, 128GB, Memoria Interna Espandibile fino a 1 TB, Batteria 5.000 mAh</p>
+                            <button id="btn_5" onclick="cambiaColorePrice()">Cambio Colore Prezzo</button>
+                            <button id="btn_toggle_5" onclick="toggleImg_5()">Nascondi Img</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div> 
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="info">
+            <p class="title_1">G&J Store Smartphone</p>
+            <p id="address_1">Via della Galassia n. 101</p>
+            <p id="address_2">Roma (RM)</p>
+            <p>email: email@gmail.com</p>
+            <p>Info: +39 000 0000000</p>
+        </div>
+        <div class="commento">
+            <p>Lascia la tua recensione</p>
+            <textarea name="comment" id="comment" cols="80" rows="15" placeholder="Inserisci qui il tuo commento su un prodotto..."></textarea>
+            <button class="btn-send">Invia Commento</button>
+        </div>
+        
+        
+    </footer>
+
+    <!-- Script js -->
+    <script src="js/script.js"></script>
+
+    <!-- Script Fontawesome -->
+    <script src="https://kit.fontawesome.com/21c8470c2b.js" crossorigin="anonymous"></script>
+</body>
+</html>
