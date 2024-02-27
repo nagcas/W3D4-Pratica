@@ -50,11 +50,35 @@ address_1.textContent = 'Via Nuova Gallassia n. 201';
 address_2.textContent = 'Sole (SS)';
 
 // ESERCIZIO 10: Scrivi una funzione per aggiungere una classe CSS ad ogni link Amazon della tabella
-// funzione aggiunge una classe al tag link cambiandone il colore del testo a rosso
+// funzione aggiunge una classe al tag link cambiandone il colore del testo in bianco e backgroung beige
 function toggleClass_1() {
-    document.getElementById('addClass_1').classList.toggle('acceso');
-}
+    let colore = document.querySelector('#acceso_1');
+    colore.classList.toggle('acceso');
+};
 
+// funzione aggiunge una classe al tag link cambiandone il colore del testo in bianco e backgroung beige
+function toggleClass_2() {
+    let colore = document.querySelector('#acceso_2');
+    colore.classList.toggle('acceso');
+};
+
+// funzione aggiunge una classe al tag link cambiandone il colore del testo in bianco e backgroung beige
+function toggleClass_3() {
+    let colore = document.querySelector('#acceso_3');
+    colore.classList.toggle('acceso');
+};
+
+// funzione aggiunge una classe al tag link cambiandone il colore del testo in bianco e backgroung beige
+function toggleClass_4() {
+    let colore = document.querySelector('#acceso_4');
+    colore.classList.toggle('acceso');
+};
+
+// funzione aggiunge una classe al tag link cambiandone il colore del testo in bianco e backgroung beige
+function toggleClass_5() {
+    let colore = document.querySelector('#acceso_5');
+    colore.classList.toggle('acceso');
+};
 
 
 // ESERCIZIO 11: Scrivi una funzione per aggiungere/togliere una classe CSS a tutte le immagini della tabella; questa classe deve modificare la visibilità/invisibilità dell'immagine
@@ -122,8 +146,6 @@ function toggleImg_5() {
         img.style.display = 'none';
     }
 };
-
-
 
 
 // ESERCIZIO 12: Scrivi una funzione per cambiare il colore del prezzo di ogni prodotto in uno differente, ogni volta che viene invocata

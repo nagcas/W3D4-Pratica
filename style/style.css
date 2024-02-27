@@ -124,11 +124,13 @@ h2 {
     font-size: 1.2em;
 }
 
-.acceso a:visited, a:link {
-    font-weight: bold;
+.acceso {
+    background-color: #9d6e4d67;
+    color: #fff;
+    padding: 5px;
 }
 
-.card a:visited, a:link {
+.card a:link {
     color: #000;
 }
 
@@ -136,7 +138,12 @@ h2 {
 #price_2, 
 #price_3, 
 #price_4,
-#price_5 {
+#price_5,
+#btn_toggle_class_1,
+#btn_toggle_class_2,
+#btn_toggle_class_3,
+#btn_toggle_class_4,
+#btn_toggle_class_5 {
     font-weight: bold;
     padding: 10px;
 }
@@ -154,7 +161,12 @@ h2 {
 #btn_toggle_2,
 #btn_toggle_3,
 #btn_toggle_4,
-#btn_toggle_5 {
+#btn_toggle_5,
+#btn_toggle_class_1,
+#btn_toggle_class_2,
+#btn_toggle_class_3,
+#btn_toggle_class_4,
+#btn_toggle_class_5 {
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
@@ -171,7 +183,12 @@ h2 {
 #btn_toggle_2:hover,
 #btn_toggle_3:hover,
 #btn_toggle_4:hover,
-#btn_toggle_5:hover {
+#btn_toggle_5:hover,
+#btn_toggle_class_1:hover,
+#btn_toggle_class_2:hover,
+#btn_toggle_class_3:hover,
+#btn_toggle_class_4:hover,
+#btn_toggle_class_5:hover {
     background-color: #30303030;
     color: #fff;
     cursor: pointer;
